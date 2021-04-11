@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+.menu {
+    background-image: linear-gradient(45deg,#8d90e4,white);
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 70vh;
+    padding-right: 100px;
+}
+#rukalijeva {
+    animation: lijevaruka 3s infinite ease-out;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#rukadesna {
+    animation: desnaruka 1.6s infinite ease-in-out;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes lijevaruka {
+    0,100% {
+        transform: rotatez(0deg);
+    }
+    50% {
+        transform: rotatez(36deg);
+    }
+}
+@keyframes desnaruka {
+    0,100% {
+        transform: rotatez(0deg);
+    }
+    50% {
+        transform: rotatez(9deg);
+    }
+}

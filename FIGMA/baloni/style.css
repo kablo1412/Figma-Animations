@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+.baloni {
+    background-image:linear-gradient(white,#aaacdd);
+    height: 70vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#prvibalon{
+    animation: balon1 3s infinite ease-in-out;
+}
+#drugibalon{
+    animation: balon2 2s infinite ease-in-out;
+}
+#trecibalon{
+    animation: balon3 3s infinite ease-in-out;
+}
+
+@keyframes balon1 {
+    0,100%{
+        fill: purple;
+    }
+    50% {
+        fill: #90ee90;
+    }
+}
+@keyframes balon2 {
+    0,100%{
+        fill: #FF6584;
+    }
+    50% {
+        fill: #f08080;
+    }
+}
+@keyframes balon3 {
+    0,100%{
+        fill: #6C63FF;
+    }
+    50% {
+        fill: #ffd700;
+    }
+}

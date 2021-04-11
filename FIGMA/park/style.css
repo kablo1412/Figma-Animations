@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+.park {
+    background-image: linear-gradient(rgb(235, 235, 115),rgb(205, 215, 115),#97e5ae);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+#covjek {
+    animation: voznja 1.8s infinite ease-in-out;
+    animation-direction:alternate;
+}
+
+@keyframes voznja {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-120px);
+    }
+}
+
